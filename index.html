@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fa116dd70f.js" crossorigin="anonymous"></script> <!-- from fontawesome.com allows icons in SERVICES section -->
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="AA copy 3.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p><span> [ </span>Software Engineer/Designer<span> ] </span></p>
+                <h1>Hi, I'm <span class="NAME">Abdalrahman Alghefari</span><br> from Canada <span></span></h1>
+                
+            </div>
+        </div>
+    </div>
+
+    <!--------ABOUT DIV-------->
+
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about-column1">
+                    <img src="Headshot1.png" alt="">
+                </div>
+                <div class="about-column2">
+                    <h1 class="subtitle">About Me</h1>
+                    <br>
+                    <p> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Hello, my name is Abdalrahman Alghefari and I'm an aspiring software engineer from Canada.
+                         I developed this passion at a very late stage and therefore still consider myself an intermediate programmer, but I continue to strive towards professionalism in this line of work.
+                          I'm in my sophomore year attending the University of Western Ontario majoring in software engineering, and am expected to graduate in 2026.
+                        <br>
+                        <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp In my free time I enjoy practicing my coding skills, exercising, playing and watching sports.
+                         I try my best to be friendly and flexible with those I meet and maintain a positive attitude while working.
+                        <br>
+                        <br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Help yourself to browse through my website and projects;
+                         don't hesitate to  <a href="#Contact" >contact me</a> if anything is of interest to you!
+                        <br>
+                    </p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                     </div>
+
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Applications</span><br>Unity/UnityHUB<br>IDE's<br>VS/VS Code<br>Quartus/MicroCap<br>Cameo Systems Modeler<br></li>
+                            <li class="moreskills"><span>Programming Languages</span><br>Java/JavaFX<br>HTML/CSS<br>JavaScript<br>C#</li>
+                        </ul>
+                     </div>
+                     
+
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021</span><br>Dhahran HighSchool - Diploma</li>
+                            <li><span>2026 (Expected)</span><br>University of Western Ontario - Software Engineering B.Eng.</li>
+                        </ul>
+                     </div>
+
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Volunteering</span><br>Habitat For Humanity-Nepal</li>
+                        </ul>
+                     </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-------------SERVICES DIV----------->
+
+   <div id="Services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Designing and building websites and other online services.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-sliders"></i>
+                <h2>Software Design</h2>
+                <p>Creating new software programs or applications.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-hammer"></i>
+                <h2>Maintenance and Support</h2>
+                <p>Providing ongoing maintenance and support for existing software applications or programs.</p>
+                <a href="#">Learn More</a>
+            </div>
+            
+        </div>
+    </div>
+   </div>
+
+<!----------------PORTOFOLIO DIV-------------->
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>Personal Portfolio</h3>
+                    <p>Created a dynamic personal portfolio website using CSS, HTML, and JavaScript. It is used for showcasing technical skills and refletcing on the latest projects completed.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="lock.jpeg">
+                <div class="layer">
+                    <h3>Empty</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="lock.jpeg">
+                <div class="layer">
+                    <h3>Empty</h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- <a href="#" class="btn">See more</a> -->
+    </div>
+</div>
+
+<!-- -------------- contact --------------  -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-inbox"></i> aalghefari1@gmail.com</p>
+                <p><i class="fa-solid fa-mobile-screen-button"></i> +1 (226)-637-3131</p>
+                <p><i class="fa-solid fa-mobile-screen-button"></i> +966 53-229-9252</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/abdalrahman-alghefari-7a777624a/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Aboodyag"><i class="fa-brands fa-square-github"></i></a>
+                    
+                </div>
+                <a href="Resume 2024 copy.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Please Enter your Name" required>
+                    <input type="email" name="Email" placeholder="Please Enter your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Please Enter your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Abdalrahman. Made by Abdalrahmn Alghefari</p>
+    </div>
+</div>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwKmHaM5_9XmAGgptCKiJGhiQFTHRvGd6_fEM7nFbzBvfjivKp8GVXf5waa3fWIvlJCdg/exec'
+    const form = document.forms['submit-to-google-sheet']
+
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Your message has been sent successfully!"
+            setTimeout (function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+ </body>
+</html>
