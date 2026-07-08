@@ -334,6 +334,22 @@ margin-top: 10px;
 .work:hover .layer{
     height: 100%;
 }
+.work-icon{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #5e17eb, #1e1e2f);
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+.work-icon i{
+    font-size: 60px;
+    color: #fff;
+}
+.work:hover .work-icon{
+    transform: scale(1.1);
+}
 .btn{
     display: block;
     margin: 50px auto;
