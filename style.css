@@ -211,7 +211,7 @@ border-radius: 50px;
 
 /*---------services--------*/
 
-#services{
+#Services{
 padding: 30px 0;
 background-image: url(liquid-marbling-paint-texture-background-fluid-painting-abstract-texture-intensive-color-mix-wallpaper_1258-85220.jpg);
 background-size: cover;
@@ -440,10 +440,12 @@ nav .fa-xmark{
         background-image: url(blckblck.png);
         width: 140%;
     }
-    #services{
-        padding-top: 1000px;
-        margin-top: 1000px;
-        flex-basis: 100%;
+    #About{
+        height: auto;
+        padding: 50px 0;
+    }
+    #Services{
+        padding: 30px 0;
     }
     .header-text{
         margin-top: 100%;
@@ -484,13 +486,29 @@ nav .fa-xmark{
         left: 25px;
         cursor: pointer;
     }
-    .about-col-1{
+    .about-column1{
         flex-basis: 100%;
-        margin-bottom: 100px;
+        margin-bottom: 30px;
     }
-    .about-col-2{
-        flex-basis: 1000%;
-        margin-bottom: 10000px;
+    .about-column1 img{
+        max-width: 250px;
+        margin: 0 auto;
+    }
+    .about-column2{
+        flex-basis: 100%;
+    }
+    .tab-titles{
+        flex-wrap: wrap;
+    }
+    .tab-links{
+        margin-right: 25px;
+        font-size: 15px;
+    }
+    .services-list div i{
+        margin-left: 0;
+    }
+    .services-list a{
+        margin-left: 0;
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
